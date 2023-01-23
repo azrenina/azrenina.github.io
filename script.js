@@ -1,5 +1,5 @@
 var mesos = [
-    'январь',
+    'january',
     'february',
     'march',
     'april',
@@ -14,13 +14,13 @@ var mesos = [
 ];
 
 var dies = [
-    'monday',
-    'tuesday',
-    'wednesday',
-    'thursday',
-    'friday',
-    'saturday',
-    'sunday'
+    'Diumenge',
+    'Dilluns',
+    'Dimarts',
+    'Dimecres',
+    'Dijous',
+    'Divendres',
+    'Dissabte'
 ];
 
 var dies_abr = [
@@ -91,12 +91,12 @@ function calendari(widget, data)
 
     boto_prev.onclick = function() {
         data.setMonth(data.getMonth() - 1);
-        calendar(widget, data);
+        calendari(widget, data);
     };
 
     boto_next.onclick = function() {
         data.setMonth(data.getMonth() + 1);
-        calendar(widget, data);
+        calendari(widget, data);
     };
 
     fila.appendChild(titol);
@@ -167,4 +167,4 @@ function calendari(widget, data)
 
 }
 
-calendar(document.getElementById('calendar'), new Date());
+calendari(document.getElementById('calendari'), new Date());
