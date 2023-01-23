@@ -1,36 +1,37 @@
-var mesos = [
-    'january',
-    'february',
-    'march',
-    'april',
-    'may',
-    'june',
-    'july',
-    'august',
-    'september',
-    'october',
-    'november',
-    'december'
+
+        var mesos = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December'
 ];
 
 var dies = [
-    'Diumenge',
-    'Dilluns',
-    'Dimarts',
-    'Dimecres',
-    'Dijous',
-    'Divendres',
-    'Dissabte'
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wedensday',
+    'Thursday',
+    'Friday',
+    'Saturday'
 ];
 
 var dies_abr = [
-    'dg',
-    'dl',
-    'dm',
-    'dc',
-    'dj',
-    'dv',
-    'ds'
+    'Su',
+    'Mo',
+    'Tu',
+    'We',
+    'Th',
+    'Fr',
+    'Sa'
 ];
 
 Number.prototype.pad = function(num) {
@@ -168,3 +169,5 @@ function calendari(widget, data)
 }
 
 calendari(document.getElementById('calendari'), new Date());
+
+    
