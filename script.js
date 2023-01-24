@@ -82,7 +82,7 @@ function calendari(widget, data)
 
     var boto_next = document.createElement('button');
     boto_next.className = 'boto-next';
-    boto_next.innerHTML = '&#9656;';
+    boto_next.innerHTML = '<a class="button-text">&#9656;</a>';
 
     titol.appendChild(boto_prev);
     titol.appendChild(document.createElement('span')).innerHTML = 

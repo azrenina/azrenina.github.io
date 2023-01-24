@@ -110,7 +110,7 @@ td > span:hover {
     font-size: 18px;
     font-weight: bold;
     text-shadow: inherit;
-    padding: 2px 10px 5px 10px;
+    
     line-height: 1px;
     height: 30px;
     width: 30px;
@@ -118,7 +118,14 @@ td > span:hover {
     border-radius: 100%;
     position: absolute;
     top: 15px;
+    
 }
+.button-text{
+    position: relative;
+    left: -4px;
+}
+
+
 .boto-next { right: 10px; padding-left: 13px; }
 .boto-prev { left: 10px; padding-right: 13px;}
 .boto-next:hover,
